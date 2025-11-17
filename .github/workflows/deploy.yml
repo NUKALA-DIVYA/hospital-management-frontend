@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./dist   # Vite output folder
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest
